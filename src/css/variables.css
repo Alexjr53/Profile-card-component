@@ -1,0 +1,6 @@
+:root{
+    --primary-soft-color:hsl(185, 75%, 39%);
+    --primary-medium-color:hsl(227, 10%, 46%);
+    --primary-dark-color:hsl(229, 23%, 23%);
+    --text-font:'Kumbh Sans', sans-serif;
+}
