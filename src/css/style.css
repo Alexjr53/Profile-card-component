@@ -1,0 +1,73 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    background: url(../images/bg-pattern-top.svg) right 48vw bottom 40vh no-repeat, url(../images/bg-pattern-bottom.svg) left 45vw top 44vh no-repeat;
+    background-color: var(--primary-soft-color);
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 40rem;
+}
+
+.container .ilustration{
+    border-radius: 1.5rem 1.5rem 0 0;
+    width: 100%;
+}
+
+.container .profile-card{
+    font-family: var(--text-font);
+    background-color: #ffffff;
+    width: 100%;
+    position: relative;
+}
+
+.container .profile-card .profile-photo{
+    border-radius: 50%;
+    position: absolute;
+    top: -5.4rem;
+    right: 12.2rem;
+    border: 0.5rem solid #ffffff;
+    
+}
+
+.container .profile-card .profile-info{
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .profile-card .profile-info .name{
+    font-size: 1.8rem;
+    padding-right: 1rem;
+}
+
+.container .profile-card .profile-info .age{
+    font-size: 1.8rem;
+}
+
+.container .profile-card .country{
+    text-align: center;
+    padding: 1rem 0 2.2rem;
+    font-size: 1.4rem;
+}
+
+.container .stats{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9rem;
+    border-top: 1px solid #a0a0a070;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
