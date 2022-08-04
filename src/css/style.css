@@ -50,24 +50,43 @@ main{
 .container .profile-card .profile-info .name{
     font-size: 1.8rem;
     padding-right: 1rem;
+    color: var(--primary-medium-color);
 }
 
 .container .profile-card .profile-info .age{
     font-size: 1.8rem;
+    color: var(--primary-dark-color);
 }
 
 .container .profile-card .country{
     text-align: center;
     padding: 1rem 0 2.2rem;
     font-size: 1.4rem;
+    color: var(--primary-dark-color);
 }
 
 .container .stats{
     background-color: #ffffff;
+    font-family: var(--text-font);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 9rem;
     border-top: 1px solid #a0a0a070;
     border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.container .stats .info{
+    text-align: center;
+}
+
+.container .stats .info h2{
+    font-size: 1.8rem;
+    color: var(--primary-medium-color);
+}
+
+.container .stats .info p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--primary-dark-color);
 }
