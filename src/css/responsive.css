@@ -1,0 +1,19 @@
+@media(max-width:393px){
+    .container{
+        max-width: 33rem;
+    }
+
+    .container .profile-card .profile-photo{
+        right: 11rem;
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        max-width: 30rem;
+    }
+
+    .container .profile-card .profile-photo{
+        right: 9.9rem;
+    }
+}

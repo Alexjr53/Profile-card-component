@@ -78,6 +78,7 @@ main{
 
 .container .stats .info{
     text-align: center;
+    padding-right: 1rem;
 }
 
 .container .stats .info h2{
