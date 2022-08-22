@@ -17,6 +17,7 @@ main{
 
 .container{
     max-width: 40rem;
+    box-shadow: 0 0 5rem #35353534;
 }
 
 .container .ilustration{
@@ -28,20 +29,17 @@ main{
     font-family: var(--text-font);
     background-color: #ffffff;
     width: 100%;
-    position: relative;
+    margin-top: -5rem;
+    text-align: center;
 }
 
 .container .profile-card .profile-photo{
     border-radius: 50%;
-    position: absolute;
-    top: -5.4rem;
-    right: 12.2rem;
     border: 0.5rem solid #ffffff;
-    
 }
 
 .container .profile-card .profile-info{
-    padding-top: 7rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
