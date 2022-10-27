@@ -1,7 +1,3 @@
-html{
-    font-size: 62.5%;
-}
-
 body{
     min-height: 100vh;
     background: url(../images/bg-pattern-top.svg) right 48vw bottom 40vh no-repeat, url(../images/bg-pattern-bottom.svg) left 45vw top 44vh no-repeat;
@@ -15,17 +11,17 @@ main{
     align-items: center;
 }
 
-.container{
+.card{
     max-width: 40rem;
     box-shadow: 0 0 5rem #35353534;
 }
 
-.container .ilustration{
+.card .ilustration{
     border-radius: 1.5rem 1.5rem 0 0;
     width: 100%;
 }
 
-.container .profile-card{
+.card .profile-container{
     font-family: var(--text-font);
     background-color: #ffffff;
     width: 100%;
@@ -33,37 +29,37 @@ main{
     text-align: center;
 }
 
-.container .profile-card .profile-photo{
+.card .profile-container .profile-photo{
     border-radius: 50%;
     border: 0.5rem solid #ffffff;
 }
 
-.container .profile-card .profile-info{
+.card .profile-container .profile-info{
     padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container .profile-card .profile-info .name{
+.card .profile-container .profile-info .name{
     font-size: 1.8rem;
     padding-right: 1rem;
     color: var(--primary-medium-color);
 }
 
-.container .profile-card .profile-info .age{
+.card .profile-container .profile-info .age{
     font-size: 1.8rem;
     color: var(--primary-dark-color);
 }
 
-.container .profile-card .country{
+.card .profile-container .country{
     text-align: center;
     padding: 1rem 0 2.2rem;
     font-size: 1.4rem;
     color: var(--primary-dark-color);
 }
 
-.container .stats{
+.card .stats{
     background-color: #ffffff;
     font-family: var(--text-font);
     display: flex;
@@ -74,17 +70,17 @@ main{
     border-radius: 0 0 1.5rem 1.5rem;
 }
 
-.container .stats .info{
+.card .stats .stats-content{
     text-align: center;
     padding-right: 1rem;
 }
 
-.container .stats .info h2{
+.card .stats .stats-content h2{
     font-size: 1.8rem;
     color: var(--primary-medium-color);
 }
 
-.container .stats .info p{
+.card .stats .stats-content p{
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--primary-dark-color);
