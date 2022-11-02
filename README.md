@@ -1,8 +1,8 @@
-# Frontend Mentor - Solução do Profile card component
+# Desafio do Frontend Mentor - Solução do Profile card component
 
 Esta é uma solução para o [Desafio Profile card component no Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
 
-[![NPM](https://img.shields.io/github/license/Alexjr53/3-column-preview-card-component)](https://github.com/Alexjr53/Profile-card-component/blob/main/LICENSE)
+[![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/Profile-card-component/blob/main/LICENSE)
 
 ## Índice
 
@@ -30,8 +30,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução do desafio: [Profile card component - Frontend mentor](https://www.frontendmentor.io/solutions/profile-card-component-G6jIqxezCw)
+- Solução do desafio no frontend mentor: [Profile card component - Frontend mentor](https://www.frontendmentor.io/solutions/profile-card-component-G6jIqxezCw)
 - URL da página: [Profile card component](https://alexjr53.github.io/Profile-card-component/) 
+- Repositório do projeto no GitHub: [Profile card component](https://github.com/Alexjr53/Profile-card-component)
 
 ## Meu processo
 
