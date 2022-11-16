@@ -16,7 +16,7 @@ Esta é uma solução para o [Desafio Profile card component no Frontend Mentor]
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-  ## Visão geral
+## Visão geral
 
 ### Desafio
 
